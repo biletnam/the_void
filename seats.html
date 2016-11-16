@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The VOID Theatre</title>
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+	<!-- shooting stars FX -->
+	<div class="shootingStars">
+		<div class="shootingStar"></div>
+		<div class="shootingStar"></div>
+		<div class="shootingStar"></div>
+		<div class="shootingStar"></div>
+		<div class="shootingStar"></div>
+		<div class="shootingStar"></div>
+	</div>
+	<div id="top-title">
+<!-- white version -->
+<!-- <img src="images/straight-title.svg"/> -->
+<!-- gray version -->
+<img src="images/straight-title-gray-01.svg"/>
+</div>
+	<!-- <div id="screen">
+	</div> -->
+	<div id="theatre">
+		<img src="images/screen.png" id="screenImg">
+		<div id="row1" class="row">
+		</div>
+
+		<div id="row2" class="row">
+		</div>
+
+		<div id="row3" class="row">
+		</div>
+
+		<div id="row4" class="row">
+		</div>
+	<!-- seating chart END -->
+
+
+	<!-- USER SEAT RESERVATION FORM -->
+	<div id="formWrapper">
+		<form id="reservationForm">
+      <p>Your selection: <span id="selectedSeat"></span></p>
+      <input type="text" id="userName" placeholder="Your Name"/>
+      <input type="email" id="userEmail" placeholder="Your E-mail"/>
+     	<div id="buttonWrapper">
+	      <button type="button" id="submitButton">submit</button>
+	      <button type="button" id="clearButton">clear</button>
+  		</div>
+    </form>
+		<br/>
+  </div>
+	<!-- user seat reservation form END -->
+</div>
+
+
+<!-- JQ & JS scripts here -->
+<script src="lib/jquery-1.11.1.js"></script>
+<script src="script.js"></script>
+<link rel="stylesheet" href="styles/shootingstars.css"/>
+
+</body>
+</html>

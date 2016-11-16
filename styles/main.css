@@ -1,0 +1,190 @@
+body {
+  background-image: url("../images/lower.jpg");
+  background-color: black;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+#top-title{
+  margin-top: 1%;
+  width:50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#screenImg {
+  width: 50%;
+  padding: 1%;
+  margin-top: -1%;
+  margin-left: 24%;
+  margin-right: 23%;
+  opacity: 0.5;
+}
+
+/*#screen {
+  width: 40%;
+  background-color: gray;
+  padding: 2px;
+  height: 2%;
+  margin: 3% auto 1% auto;
+  border-radius: 10px;
+}*/
+
+#theatre {
+  width: 90%;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.row {
+  position: block;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#submitButton {
+  margin: 1%;
+}
+
+.seat {
+  background-color: #ffffff;
+  opacity: 0.5;
+  color: black;
+  margin-left: 11px;
+  width: 5%;
+  display: inline-block;
+  padding: 2%;
+  border-radius: 10px;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+/*//// FORM STYLE BELOW ////*/
+#reservationForm {
+  width: 30%;
+  margin: 2% auto;
+  padding: 1% 1% 4% 1%;
+  font-family: monospace;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+}
+
+p {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 1.3em;
+}
+
+input {
+  display: block;
+  padding: 2%;
+  width: 60%;
+  margin: 1% auto 5% auto;
+  font-family: monospace;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  height: 6%;
+}
+
+#buttonWrapper {
+  width: 60%;
+  margin: auto;
+  position: relative;
+}
+
+button {
+  border: 2px double;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 1em;
+  padding: 5px 8px;
+  position: absolute;
+}
+
+@media (max-width:1000px) {
+	button {
+		position: relative;
+	}
+}
+
+#submitButton {
+  border-color: #1f2e2e;
+  background-color: #476b6b;
+  color: #f2f2f2;
+  left: -1px;
+}
+
+#submitButton:hover {
+  background-color: #334d4d;
+}
+
+#submitButton:active{
+  background-color: #334d4d;
+}
+
+#clearButton {
+  border-color: #4d1919;
+  background-color: #862d2d;
+  color: #f2f2f2;
+  right: 2px;
+}
+
+#clearButton:hover {
+  background-color: #602020;
+}
+/*//// form style END ////*/
+
+
+.taken {
+  background-color: #827676;
+}
+
+.open {
+  background-color: #f2f2f9;
+}
+
+.selected {
+  background-color: #2a31f9;
+}
+
+
+#selectedSeat {
+  font-weight: bold;
+}
+
+
+#hideButton {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    z-index: 2;
+    position: relative;
+    margin-left: 40%;
+}
+
+/*header {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  font-family: titillium;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  margin-top: 1%;
+  text-align: center;
+  font-family: titillium;
+}*/
